@@ -11,11 +11,11 @@ export default function () {
 				alt='living-room'
 				height={415}
 				width={654}
-				className='md:h-56 lg:h-72 md:rounded-bl-3xl lg:rounded-bl-3xl lg:rounded-tl-3xl w-screen object-cover lg:mr-0 lg:m-auto lg:w-[500px] xl:w-[654px]'
+				className='filter blur-md md:filter-none md:h-56 lg:h-72 md:rounded-bl-3xl lg:rounded-bl-3xl lg:rounded-tl-3xl w-screen object-cover lg:mr-0 lg:m-auto lg:w-[500px] xl:w-[654px]'
 				priority
 			/>
-			<h1 className='md:hidden text-4xl sm:text-5xl md:text-6xl text-center mt-3 bg-gradient-to-r from-white to-slate-500 text-transparent bg-clip-text uppercase'>
-				<span className='font-bold'>Las</span> Romero
+			<h1 className='absolute w-full top-24 md:hidden text-5xl md:text-6xl text-center mt-3 bg-gradient-to-r from-slate-950 to-slate-500 text-transparent bg-clip-text uppercase font-bold'>
+				Las Romero
 			</h1>
 		</header>
 	)
