@@ -25,7 +25,7 @@ export const metadata = {
 			'Welcome to Las Romero, your premier destination for high-quality services. Discover our strategic location, immediate and efficient service, and comfortable, air-conditioned rooms.',
 		images: [
 			{
-				url: '/public/header-bg.png',
+				url: '/header-bg.png',
 				width: 800,
 				height: 600,
 				alt: 'Las Romero Header Image',
