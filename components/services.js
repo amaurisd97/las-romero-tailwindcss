@@ -23,7 +23,7 @@ const services = [
 
 export default function Services() {
 	return (
-		<section className='flex flex-col lg:w-11/12 xl:w-4/5 m-auto text-slate-100'>
+		<section className='flex flex-col w-screen md:w-4/5 lg:w-11/12 xl:w-4/5 m-auto text-slate-100'>
 			<h2 className='text-2xl md:text-4xl text-center mt-12 uppercase bg-gradient-to-r from-white to-slate-500 text-transparent bg-clip-text'>
 				Nuestros Servicios
 			</h2>
@@ -35,7 +35,7 @@ export default function Services() {
 				que harán de tu estancia algo inolvidable:
 			</p>
 
-			<div className='flex flex-wrap justify-center sm:justify-between gap-5 sm:gap-0 mt-2'>
+			<div className='flex flex-wrap justify-center lg:justify-between gap-5 mt-2'>
 				{services.map((service, index) => (
 					<ServiceCard
 						key={index}
