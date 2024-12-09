@@ -35,7 +35,6 @@ export const metadata = {
 		type: 'website',
 		siteName: 'Las Romero',
 	},
-	themeColor: '#000000',
 	robots: {
 		index: true,
 		follow: true,
@@ -46,6 +45,10 @@ export const metadata = {
 			snippet: true,
 		},
 	},
+}
+
+export const viewport = {
+	themeColor: '#000000',
 }
 
 export default function RootLayout({ children }) {
