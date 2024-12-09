@@ -8,12 +8,11 @@ export default function Home() {
 	return (
 		<>
 			<NavBar />
-			<main role='main'>
-				<Header />
-				<ShowUp />
-				<AboutUs />
-				<Services />
-			</main>
+
+			<Header />
+			<ShowUp />
+			<AboutUs />
+			<Services />
 		</>
 	)
 }
