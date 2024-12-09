@@ -7,7 +7,7 @@ export default function Header() {
 					src={'1.svg'}
 					width={80}
 					height={80}
-					alt='house'
+					alt='House icon'
 					className='absolute right-[20%] top-20 md:hidden '
 				/>
 				<h1 className='text-3xl md:text-5xl lg:text-5xl xl:text-6xl ml-10 md:ml-10 md:mr-10 lg:ml-28 lg:mt-10 xl:ml-28 md:mt-10 xl:mt-10 md:p-3 lg:p-0 md:bg-gradient-to-r md:from-white md:to-slate-500 md:text-transparent md:bg-clip-text uppercase xl:mr-5 hidden md:block'>
@@ -15,7 +15,7 @@ export default function Header() {
 				</h1>
 				<Image
 					src='/service-bg.png'
-					alt='living-room'
+					alt='Living room background'
 					height={415}
 					width={654}
 					className='hidden md:block md:h-56 lg:h-72 md:rounded-bl-3xl lg:rounded-bl-3xl lg:rounded-tl-3xl w-screen object-cover lg:mr-0 lg:m-auto lg:w-[500px] xl:w-[654px]'
@@ -33,7 +33,7 @@ export default function Header() {
 					src={'2.svg'}
 					width={80}
 					height={80}
-					alt='house'
+					alt='House icon'
 					className='absolute left-[10%] top-52 md:hidden '
 				/>
 			</div>

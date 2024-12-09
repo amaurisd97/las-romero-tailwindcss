@@ -12,7 +12,7 @@ export default function () {
 						src={'/grid/1.png'}
 						width={205}
 						height={150}
-						alt='ubicacion'
+						alt='Strategic and convenient location'
 						className='rounded-full sm:rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none sm:rounded-br-none w-20 sm:w-40 md:w-52 h-20 sm:h-28 md:h-36'
 					/>
 					<h3 className='text-xs sm:text-base md:text-xl m-4 sm:m-5'>Localización Estratégica y Conveniente</h3>
@@ -22,7 +22,7 @@ export default function () {
 						src={'/grid/2.png'}
 						width={205}
 						height={150}
-						alt='ubicacion'
+						alt='Immediate and efficient service'
 						className='rounded-full sm:rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none sm:rounded-br-none w-20 sm:w-40 md:w-52 h-20 sm:h-28 md:h-36'
 					/>
 					<h3 className='text-xs sm:text-base md:text-xl m-4 sm:m-5 w-full'>Atención inmediata y eficiente</h3>
@@ -32,7 +32,7 @@ export default function () {
 						src={'/grid/2.png'}
 						width={205}
 						height={150}
-						alt='ubicacion'
+						alt='Comfortable and air-conditioned rooms'
 						className='rounded-full sm:rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none sm:rounded-br-none w-20 sm:w-40 md:w-52 h-20 sm:h-28 md:h-36'
 					/>
 					<h3 className='text-xs sm:text-base md:text-xl m-4 sm:m-5 sm:mt-3'>Disfruta de Habitaciones Climatizadas y Confortables</h3>

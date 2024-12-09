@@ -19,7 +19,7 @@ export default function () {
 					src={'/services.png'}
 					width={650}
 					height={250}
-					alt='Imagen de servicios de alojamiento'
+					alt='Services and amenities of Las Romero'
 					className='lg:block hidden object-cover lg:rounded-tl-3xl lg:rounded-bl-3xl xl:rounded-none lg:w-[450px] lg:h-[370px] xl:w-[650px] xl:h-[350px]'
 					loading='lazy'
 					quality={90}

@@ -14,7 +14,38 @@ const geistMono = localFont({
 
 export const metadata = {
 	title: 'Las Romero',
-	description: 'Las Romero, un lugar para que te sientas como en casa',
+	description:
+		'Welcome to Las Romero, your premier destination for high-quality services. Discover our strategic location, immediate and efficient service, and comfortable, air-conditioned rooms.',
+	keywords:
+		'Las Romero, accommodation, services, strategic location, efficient service, comfortable rooms, tour guide, classic car tours, beverages and food',
+	author: 'Amauris David González Suárez',
+	openGraph: {
+		title: 'Las Romero',
+		description:
+			'Welcome to Las Romero, your premier destination for high-quality services. Discover our strategic location, immediate and efficient service, and comfortable, air-conditioned rooms.',
+		images: [
+			{
+				url: '/public/header-bg.png',
+				width: 800,
+				height: 600,
+				alt: 'Las Romero Header Image',
+			},
+		],
+		url: 'https://las-romero.vercel.app/',
+		type: 'website',
+		siteName: 'Las Romero',
+	},
+	themeColor: '#000000',
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			noimageindex: false,
+			snippet: true,
+		},
+	},
 }
 
 export default function RootLayout({ children }) {

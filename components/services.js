@@ -3,19 +3,19 @@ import ServiceCard from './service-card'
 const services = [
 	{
 		src: '/grid/2.png',
-		alt: 'Guía Turístico',
+		alt: 'Tour Guide',
 		title: 'Guía Turístico',
 		description: 'Descubre los secretos mejor guardados de la ciudad con la ayuda de nuestro guía turístico.',
 	},
 	{
 		src: '/grid/2.png',
-		alt: 'Paseos en Carros Clásicos',
+		alt: 'Classic Car Tours',
 		title: 'Paseos en Carros Clásicos',
 		description: 'Disfruta de un viaje al pasado con nuestros paseos en carros clásicos. Explora la ciudad con estilo y elegancia.',
 	},
 	{
 		src: '/grid/2.png',
-		alt: 'Bebidas y Comidas',
+		alt: 'Beverages and Food',
 		title: 'Bebidas y Comidas',
 		description: 'Deléitate con una selección de bebidas y comidas preparadas con ingredientes frescos y locales.',
 	},
