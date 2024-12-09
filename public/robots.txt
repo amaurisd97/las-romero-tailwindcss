@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://las-romero.vercel.app/sitemap.xml
