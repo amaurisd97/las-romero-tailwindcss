@@ -12,3 +12,18 @@ Allow: /
 
 # Crawl-delay in seconds (optional)
 Crawl-delay: 10
+
+# Specify preferred domain
+Host: https://las-romero.vercel.app
+
+# Specify rules for specific search engines
+User-agent: Googlebot
+Disallow: /private/
+
+User-agent: Bingbot
+Disallow: /admin/
+
+# Add additional user-agents if needed
+User-agent: Yandex
+Disallow: /private/
+Crawl-delay: 20
