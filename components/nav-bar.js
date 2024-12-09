@@ -38,22 +38,22 @@ export default function NavBar() {
 				<div className='hidden lg:flex mt-7'>
 					<a
 						href='#'
-						className='p-3 rounded-xl m-4 text-slate-100 hover:underline hover:underline-offset-4'>
+						className='p-3 rounded-xl m-4 text-slate-100 nav-link'>
 						Servicios
 					</a>
 					<a
 						href='#about-us'
-						className='p-3 rounded-xl m-4 text-slate-100 hover:underline hover:underline-offset-4'>
+						className='p-3 rounded-xl m-4 text-slate-100 nav-link'>
 						Sobre nosotros
 					</a>
 					<a
 						href='#'
-						className='p-3 rounded-xl m-4 text-slate-100 hover:underline hover:underline-offset-4'>
+						className='p-3 rounded-xl m-4 text-slate-100 nav-link'>
 						Un vistazo
 					</a>
 					<a
 						href='#'
-						className='p-3 rounded-xl m-4 text-slate-100 hover:underline hover:underline-offset-4'>
+						className='p-3 rounded-xl m-4 text-slate-100 nav-link'>
 						Contactenos
 					</a>
 				</div>
@@ -62,22 +62,22 @@ export default function NavBar() {
 				<div className='lg:hidden absolute -mt-10 rounded-xl bg-slate-950 right-4 gap-1 text-center border border-solid border-slate-500 z-10'>
 					<a
 						href='#'
-						className='block p-3 rounded-xl  text-slate-100 hover:underline hover:underline-offset-4'>
+						className='block p-3 rounded-xl  text-slate-100'>
 						Servicios
 					</a>
 					<a
 						href='#about-us'
-						className='block p-3 rounded-xl  text-slate-100 hover:underline hover:underline-offset-4'>
+						className='block p-3 rounded-xl  text-slate-100'>
 						Conócenos
 					</a>
 					<a
 						href='#'
-						className='block p-3 rounded-xl  text-slate-100 hover:underline hover:underline-offset-4'>
+						className='block p-3 rounded-xl  text-slate-100'>
 						Un vistazo
 					</a>
 					<a
 						href='#'
-						className='block p-3 rounded-xl  text-slate-100 hover:underline hover:underline-offset-4'>
+						className='block p-3 rounded-xl  text-slate-100'>
 						Contactenos
 					</a>
 				</div>
