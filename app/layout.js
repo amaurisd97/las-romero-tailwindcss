@@ -53,7 +53,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang='en'>
+		<html lang='es'>
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-tr from-black to-slate-950 min-h-screen`}>
 				<main role='main'>{children}</main>
 			</body>
